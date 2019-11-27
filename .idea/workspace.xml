@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="148d4925-3955-4548-9efc-d6549ed17779" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/command/query/query_response.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/command/query/query_response.g.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/command/response_base.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/helper/response_type_mapper.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/collection/collection_base.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/collection/prefilter/i_prefilter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/command/connection/connection_response.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/command/connection/connection_response.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/command/subscribe/change_response.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/command/subscribe/change_response.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/command/subscribe/load_response.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/command/subscribe/load_response.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/command/subscribe/unload_response.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/command/subscribe/unload_response.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/connection/connection_base.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/connection/connection_manager.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/realtime_database_example.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/realtime_database_example.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/command/query/query_command.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/command/query/query_command.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/command/query/query_response.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/command/query/query_response.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/command/subscribe/subscribe_command.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/command/subscribe/subscribe_command.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/connection/websocket_connection.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/connection/websocket_connection.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/helper/response_type_mapper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/helper/response_type_mapper.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,10 +44,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="last_opened_file_path" value="D:/projects/fh/Programmierkurs1/Praktikum09" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/src/command/subscribe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\morri\Documents\Projects\productive\dart_realtime_database\lib\src\command\subscribe" />
+      <recent name="C:\Users\morri\Documents\Projects\productive\dart_realtime_database\lib\src\command\connection" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -71,6 +89,7 @@
       <updated>1574793067263</updated>
       <workItem from="1574793069901" duration="4877000" />
       <workItem from="1574859971336" duration="3953000" />
+      <workItem from="1574876200852" duration="4217000" />
     </task>
     <servers />
   </component>
@@ -82,7 +101,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

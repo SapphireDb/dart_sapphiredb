@@ -7,6 +7,6 @@ part 'query_response.g.dart';
 class QueryResponse extends ResponseBase {
   dynamic result;
 
-  @override
-  ResponseBase fromJson(Map<String, dynamic> json) => _$QueryResponseFromJson(json);
+  QueryResponse();
+  factory QueryResponse.fromJson(Map<String, dynamic> json) => _$QueryResponseFromJson(json);
 }
