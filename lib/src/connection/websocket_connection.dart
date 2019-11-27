@@ -31,6 +31,8 @@ class WebsocketConnection {
         webSocketChannel = IOWebSocketChannel.connect(connectionString);
 
         webSocketChannel.stream.listen((message) {
+          Map<String, dynamic> json = jsonDecode(message);
+
           readyState.sink.add("connected");
           print(message);
         });
