@@ -24,7 +24,7 @@ class WebsocketConnection extends ConnectionBase {
 
         String connectionString = (options.useSsl ? "wss://" : "ws://") +
             options.serverBaseUrl +
-            "/realtimedatabase/socket?";
+            "/sapphire/socket?";
 
         if (options.apiSecret.isNotEmpty && options.apiKey.isNotEmpty) {
           connectionString +=
